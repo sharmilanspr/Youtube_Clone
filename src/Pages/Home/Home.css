@@ -1,0 +1,28 @@
+.container{
+    background: white;
+    padding-left: 17%;
+    padding-right: 2%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.large-container{
+    padding-left: 7%;
+}
+@media only screen and (max-width: 978px){
+    .container{
+        background: white;
+        padding-left:8%;
+        padding-right: 2%;
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+}
+@media only screen and (max-width: 600px){
+    .container{
+        background: white;
+        padding-left:4%;
+        padding-right: 4%;
+        padding-top: 2%;
+        padding-bottom: 20px;
+    }
+}

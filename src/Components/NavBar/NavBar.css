@@ -1,0 +1,154 @@
+nav{
+    padding: 10px 2%;
+    justify-content: space-between;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.201);
+    background-color: white;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background-color: rgba(255, 255, 255, 0);
+    background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20190221/ourmid/pngtree-poly-cost-effective-discount-offer-clearance-image_16482.jpg);
+    width: 100%;
+}
+
+.nav-left .material-symbols-outlined{
+    margin-right: 20px;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    align-self: center;
+    cursor: pointer;
+}
+.nav-left  h1{
+    color:rgb(255, 255, 255);
+    font-size: 30px;
+    margin-left: 10px;
+    align-self: center;
+}
+.ytlogo {
+    display: flex;
+    flex-direction: row;
+}
+.nav-left .ytlogo img{
+    width: 40px;
+}
+
+.nav-middle .search-box{
+    border: 1px solid rgb(220, 220, 220);
+    margin-right: 15px;
+    padding: 8px 12px;
+    border-radius: 25px;
+    background: rgb(255, 255, 255);
+}
+.nav-middle .search-box input{
+    width: 400px;
+    border: 0;
+    outline: none;
+    background: rgba(255, 255, 255, 0.1);
+}
+.nav-middle .search-box img{
+    width: 15px;
+}
+.nav-middle .search-box img:hover{
+    transform: scale(1.1);
+}
+.nav-right .user-icon{
+    width: 35px;
+    border-radius: 50%;
+}
+.nav-right .user-icon:hover{
+    transform: scale(1.1);
+}
+.nav-right .material-symbols-outlined{
+    color: rgb(255, 255, 255);
+    margin-right: 50px;
+    font-size: 30px;
+    cursor: pointer;
+}
+.material-symbols-outlined:hover{
+    transform: scale(1.1);
+}
+@media only screen and (max-width: 978px) {
+    .nav-left .material-symbols-outlined{
+        display: none;
+    }
+    .nav-right .material-symbols-outlined{
+        display: none;
+    }
+    .nav-right .user-icon{
+        display: block;
+        width: 30px;
+    }
+    .ytlogo h1,img{
+        font-size: 25px;
+        width: 100px;
+    }
+    .nav-middle .search-box input{
+        width: 300px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .nav-left .material-symbols-outlined{
+        display: none;
+    }
+    .nav-right .material-symbols-outlined{
+        display: none;
+    }
+    .nav-right .user-icon{
+        display: block;
+        width: 30px;
+    }
+    .ytlogo h1,img{
+        font-size: 19px;
+        width: 80px;
+    }
+    .nav-left .ytlogo img{
+        width: 38px;
+    }
+    .nav-middle .search-box input{
+        width: 150px;
+    }
+}
+@media only screen and (max-width: 400px) {
+    .nav-left .material-symbols-outlined{
+        display: none;
+    }
+    .nav-right .material-symbols-outlined{
+        display: none;
+    }
+    .nav-right .user-icon{
+        display: block;
+        width: 30px;
+    }
+    .ytlogo h1,img{
+        font-size: 15px;
+        width: 60px;
+    }
+    .nav-left .ytlogo img{
+        width: 30px;
+    }
+    .nav-middle .search-box input{
+        width: 100px;
+    }
+}
+@media only screen and (max-width: 300px) {
+    .nav-left .material-symbols-outlined{
+        display: none;
+    }
+    .nav-right .material-symbols-outlined{
+        display: none;
+    }
+    .nav-right .user-icon{
+        display: block;
+        width: 30px;
+    }
+    .ytlogo h1,img{
+        font-size: 15px;
+        width: 60px;
+    }
+    .nav-left .ytlogo img{
+        width: 30px;
+    }
+    .nav-middle .search-box input{
+        width: 0px;
+    }
+}
